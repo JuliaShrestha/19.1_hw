@@ -1,0 +1,72 @@
+#weather-widget {
+    background: linear-gradient(to right, #4A90E2, #50C9C3);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details {
+    text-align: left;
+}
+
+.alarm-battery {
+    display: flex;
+    gap: 15px;
+}
+
+#pressure {
+    margin-top: 0;
+}
+
+#humidity {
+    margin-bottom: 5px;
+}
+
+#feels-like {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#alarm-icon {
+    margin-left: 10px;
+}
+
+#alarm-time {
+    margin-left: -10px;
+}
+
+#battery {
+    margin-left: -5px;
+}
+
+.time {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#temp {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+
+button#refresh {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+#description{
+    font-weight: bold;
+    font-size: 20px;
+    margin:  2px 0 12px 0;
+    text-transform: capitalize;
+}

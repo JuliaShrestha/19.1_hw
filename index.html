@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+
+    <div id="weather-widget">
+
+        <div class="details">
+            <h2 id="full-date"></h2>
+
+            <div class="alarm-battery">
+                <i class="fas fa-clock"></i>
+                <span id="alarm-time">SUN 8:30 AM</span>
+            
+                <i class="fas fa-battery-quarter"></i>
+                <span id="battery">27%</span>
+            </div>
+
+            <p id="humidity"></p>
+            <p id="pressure"></p>
+            <p id="wind-speed"></p>
+        </div>
+        
+        <div class="temperature">
+            <img id="weather-icon" src="" alt="Weather Icon">
+            <p id="temp"></p>
+            <p id="feels-like"></p>
+            <p id="description"></p>
+            <button id="refresh"><i class="fas fa-sync-alt"></i></button>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
